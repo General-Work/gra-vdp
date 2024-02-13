@@ -1,0 +1,51 @@
+{
+  "name": "gra-vdp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@iconify/icons-solar": "^1.2.3",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-separator": "^1.0.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "filepond": "^4.30.6",
+    "filepond-plugin-image-exif-orientation": "^1.0.11",
+    "filepond-plugin-image-preview": "^4.6.12",
+    "lucide-react": "^0.311.0",
+    "nanoid": "^5.0.4",
+    "next": "14.0.4",
+    "next-nprogress-bar": "^2.1.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-filepond": "^7.1.2",
+    "react-flatpickr": "^3.10.13",
+    "react-hook-form": "^7.49.3",
+    "react-hot-toast": "^2.4.1",
+    "react-select": "^5.8.0",
+    "tailwind-merge": "^2.2.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@iconify/icons-carbon": "^1.2.20",
+    "@iconify/icons-radix-icons": "^1.2.9",
+    "@iconify/icons-svg-spinners": "^1.2.0",
+    "@iconify/react": "^4.1.1",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}

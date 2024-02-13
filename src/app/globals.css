@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+ 
+/* @layer base {
+  * {
+    @apply noborder-border;
+  }
+  body {
+    @apply nobg-background notext-foreground;
+  }
+} */
+
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+.dotted-bg {
+  background-image: radial-gradient(#4f46e5 1%, transparent 5%), radial-gradient(#4f46e5 1%, transparent 5%);
+  background-size: 30px 30px;
+  background-position: 0 0, 30px 30px;
+  background-repeat: repeat;
+}
+
+
+.apply-text-shadow{
+  text-shadow: 2px 4px 3px rgba(99,99,76,0.4);
+}
+
+.f-image{
+   transition: transform 500s ease-in-out;
+}
+
+.feature-card:hover .f-image{
+  transform: scale(1.5);
+}
+
